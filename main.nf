@@ -1,8 +1,7 @@
 #!/usr/bin/env nextflow
 /*
 Simply run nextflow pipeline as:
-// Better to use imputed dataset for snpmatch cross
-nextflow run main.nf --input "*vcf" --db hdf5_file --outdir output_folder
+nextflow run main.nf --input_bed input_bed --reference_fasta tair10.fasta --db_genomes *fasta --outdir output_folder
 */
 /*
  * SET UP CONFIGURATION VARIABLES
